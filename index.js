@@ -95,7 +95,7 @@ function getAverageGoals(data) {
     }, 0)
     return (avgHomeGoals / data.length).toFixed(2)
 }
-console.log(getAverageGoals(fifaData));
+console.log("get average goals", getAverageGoals(fifaData));
 
 
 
